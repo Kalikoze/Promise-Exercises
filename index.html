@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Promise Exercises</title>
+  </head>
+  <body>
+    <h1>Please Check Console for Answers to Exercises!</h1>
+    <section>
+      <h2>What is .then() used for, and what is .catch() used for?</h2>
+      <p>The <b>then</b> callback is used when the promise is resolved.  One can also chain then method callbacks.  Each then receives the previous result of the last then's return value.  The <b>catch</b> callback is executed when the promise is rejected.  Typically errors are sent to the catch.</p>
+      <h2>What are good use cases for Promises?</h2>
+      <p>Promises are typically used when using the fetch() API.  Promises are a fantastic tool for working with asynchronous code.</p>
+      <h2>What other libraries/functions can you find that uses Promises?</h2>
+      <p>Promises can be used both in the browser and Node.js.  One can npm install promises and then require them for Node.js.  This library also includes some extensions including nodeify and denodeify.  jQuery also has a .promise() method that returns a dynamically generated Promise that is resolved once all actions of a certain type have ended.</p>
+    </section>
+    <script src='scripts.js' type="text/javascript"></script>
+  </body>
+</html>
